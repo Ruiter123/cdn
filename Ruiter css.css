@@ -1,0 +1,226 @@
+/ * 
+    CSS Projeto Automacao Residencial
+    FILIPEFLOP Componentes Eletronicos
+* /
+
+raiz { 
+    display: bloco;
+}
+
+corpo {
+    margem: 0;
+    preenchimento: 0;
+}
+
+#embrulho {
+    top de preenchimento: 40px;
+    posição: relativa;
+    largura: 530px;
+    altura: 600 px;
+	margem direita: auto;
+	margin-top: 0;
+	margin-left: auto;
+        tamanho da fonte: 30px;
+        cor preta;
+        texto-alinhar: centro;
+        font-family: arial;
+}
+
+div.rele1_ligado {
+    posição: absoluta;
+    direita: -110px;
+    topo: 220px;
+    largura: 300px;
+    altura: 206 px;
+    fronteira: nenhuma;
+		margem: auto;
+    fundo: url (lampada_ligada.png) não-repete superior esquerdo;
+}
+
+div.rele1_desligado {
+    posição: absoluta;
+    direita: -110px;
+    topo: 220px;
+    largura: 300px;
+    altura: 206 px;
+    fronteira: nenhuma;
+	fundo: url (lampada_desligada.png) não-repete superior esquerdo;
+}
+
+div.rele2_ligado {
+    posição: absoluta;
+    direita: -110px;
+    top: 387px;
+    largura: 300px;
+    altura: 206 px;
+    fronteira: nenhuma;
+    fundo: url (lampada_ligada.png) não-repete superior esquerdo;
+}
+
+div.rele2_desligado {
+    posição: absoluta;
+    direita: -110px;
+    top: 387px;
+    largura: 300px;
+    altura: 206 px;
+    fronteira: nenhuma;
+	fundo: url (lampada_desligada.png) não-repete superior esquerdo;
+}
+div.rele3_ligado {
+    posição: absoluta;
+    direita: -110px;
+    top: 387px;
+    largura: 300px;
+    altura: 206 px;
+    fronteira: nenhuma;
+    fundo: url (lampada_ligada.png) não-repete superior esquerdo;
+}
+
+div.rele3_desligado {
+    posição: absoluta;
+    direita: -110px;
+    top: 387px;
+    largura: 300px;
+    altura: 206 px;
+    fronteira: nenhuma;
+	fundo: url (lampada_desligada.png) não-repete superior esquerdo;
+}
+
+# div1 {
+	posição: absoluta;
+	direita: 85px;
+	top: 195px;
+    raio de fronteira: 25 px;
+    borda: 2px sólido # 000000;
+    largura: 350px;
+    altura: 150 px; 
+}
+
+# div2 {
+	posição: absoluta;
+	direita: 85px;
+	início: 355 px;
+    raio de fronteira: 25 px;
+    borda: 2px sólido # 000000;
+    largura: 350px;
+    altura: 150 px; 
+}
+# div3 {
+	posição: absoluta;
+	direita: 85px;
+	início: 355 px;
+    raio de fronteira: 25 px;
+    borda: 2px sólido # 000000;
+    largura: 350px;
+    altura: 150 px; 
+}
+
+#botao {
+    posição: absoluta;
+    direita: 230px;
+    top: 250px;
+	 largura: 200px;
+    altura: 256 px;
+}
+
+.botao {
+	-moz-box-shadow: inserção 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow: inserção 0px 1px 0px 0px #ffffff;
+	box-shadow: inserção 0px 0px 0px 0px #ffffff;
+	background: -webkit-gradient (linear, superior esquerdo, inferior esquerdo, cor-stop (0.1, # 16ADFF), cor-stop (1, # 26A8FF));
+	plano de fundo: -moz-linear-gradiente (parte superior do centro, # 16ADFF 5%, # 26A8FF 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient (startColorstr = '# 16ADFF', endColorstr = '# 26A8FF');
+	cor de fundo: #ededed;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	raio de fronteira: 6 px;
+	borda: 1px sólido #dcdcdc;
+	display: bloco inline;
+	cor: #ffffff;
+	font-family: arial;
+	tamanho da fonte: 28px;
+	intensidade da fonte: Negrito;
+	preenchimento: 10 px 40 px;
+	text-decoration: nenhum;
+	text-shadow: 0px 0px 0px #ffffff;
+        largura: 100px;
+        texto-alinhar: centro;
+}
+
+} .botao: ativo {
+	posição: relativa;
+	top: 1px;
+}
+
+# botao_2 {
+    posição: absoluta;
+    direita: 230px;
+    top: 417px;
+	 largura: 200px;
+    altura: 256 px;
+}
+
+.botao_2 {
+	-moz-box-shadow: inserção 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow: inserção 0px 1px 0px 0px #ffffff;
+	box-shadow: inserção 0px 0px 0px 0px #ffffff;
+	background: -webkit-gradient (linear, superior esquerdo, inferior esquerdo, cor-stop (0.1, # 16ADFF), cor-stop (1, # 26A8FF));
+	plano de fundo: -moz-linear-gradiente (parte superior do centro, # 16ADFF 5%, # 26A8FF 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient (startColorstr = '# 16ADFF', endColorstr = '# 26A8FF');
+	cor de fundo: #ededed;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	raio de fronteira: 6 px;
+	borda: 1px sólido #dcdcdc;
+	display: bloco inline;
+	cor: #ffffff;
+	font-family: arial;
+	tamanho da fonte: 28px;
+	intensidade da fonte: Negrito;
+	preenchimento: 10 px 40 px;
+	text-decoration: nenhum;
+	text-shadow: 0px 0px 0px #ffffff;
+        largura: 100px;
+        texto-alinhar: centro;
+}
+
+} .botao_2: active {
+	posição: relativa;
+	top: 1px;
+}
+# botao_3 {
+    posição: absoluta;
+    direita: 230px;
+    top: 417px;
+	 largura: 200px;
+    altura: 256 px;
+}
+
+.botao_3 {
+	-moz-box-shadow: inserção 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow: inserção 0px 1px 0px 0px #ffffff;
+	box-shadow: inserção 0px 0px 0px 0px #ffffff;
+	background: -webkit-gradient (linear, superior esquerdo, inferior esquerdo, cor-stop (0.1, # 16ADFF), cor-stop (1, # 26A8FF));
+	plano de fundo: -moz-linear-gradiente (parte superior do centro, # 16ADFF 5%, # 26A8FF 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient (startColorstr = '# 16ADFF', endColorstr = '# 26A8FF');
+	cor de fundo: #ededed;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	raio de fronteira: 6 px;
+	borda: 1px sólido #dcdcdc;
+	display: bloco inline;
+	cor: #ffffff;
+	font-family: arial;
+	tamanho da fonte: 28px;
+	intensidade da fonte: Negrito;
+	preenchimento: 10 px 40 px;
+	text-decoration: nenhum;
+	text-shadow: 0px 0px 0px #ffffff;
+        largura: 100px;
+        texto-alinhar: centro;
+}
+
+} .botao_3: active {
+	posição: relativa;
+	top: 1px;
+}
